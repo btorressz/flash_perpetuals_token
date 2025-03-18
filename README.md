@@ -97,3 +97,26 @@ This section describes the key functions within the **Flash Perpetuals Token** p
 
 ---
 
+## **Security & Protection Mechanisms**
+The **Flash Perpetuals Token** system includes **multiple security layers** to prevent **exploits and unfair trading advantages**:
+
+### 🔒 **Access Control**
+- **Admin-controlled settings** for **funding rates and liquidation rules**.
+- **Role-based permissions** for **market makers, LPs, and liquidation bots**.
+
+### 💸 **Dynamic Liquidation & Partial Liquidation**
+- **Prevents full liquidations** by **partially closing** risky positions.
+- **Liquidation penalties** ensure **fair rewards for LPs and liquidators**.
+
+### ⚡ **Optimized Execution with Merkle Proofs**
+- Uses **Merkle trees** for **order validation**, preventing **order spoofing**.
+
+### 🏦 **Liquidity Pool Management**
+- **LP rewards** are **distributed based on trading volume**.
+- **Auto-hedging system** protects LP funds **during volatile markets**.
+
+### 🔁 **Auto-Rebalance System**
+- Automatically **reallocates liquidity** to **prevent depletion** during **high-volatility events**.
+
+---
+
