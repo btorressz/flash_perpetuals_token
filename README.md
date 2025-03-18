@@ -42,3 +42,20 @@ To support **low-latency order execution**, the protocol includes:
 - **Time-Weighted Funding Rates:** Dynamically adjusts **funding payments based on volatility**.
 
 ---
+
+
+## **Function Descriptions**
+This section describes the key functions within the **Flash Perpetuals Token** program.
+
+### **1️⃣ Initialization & Configuration**
+#### **initialize**
+- Initializes the **GlobalState** account.
+- Sets the **admin authority, fee rate, margin levels, and execution fees**.
+
+#### **add_authorized_liquidator**
+- Grants **liquidation privileges** to a specified **liquidator or HFT firm**.
+
+#### **add_authorized_orderbook_updater**
+- Grants access to **orderbook updates** for **whitelisted market makers**.
+
+---
