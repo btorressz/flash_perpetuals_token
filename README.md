@@ -71,3 +71,29 @@ This section describes the key functions within the **Flash Perpetuals Token** p
 
 ---
 
+
+### **3️⃣ Liquidation & Risk Management**
+#### **apply_funding_rate**
+- Applies **funding payments** between **long and short positions**.
+
+#### **adjust_funding_rate**
+- Allows the **admin** to update the **funding rate** dynamically.
+
+#### **liquidate_with_penalty**
+- Liquidates **under-margined positions**.
+- Applies a **liquidation penalty**, splitting funds between **liquidators and LPs**.
+
+---
+
+### **4️⃣ High-Frequency Trading Enhancements**
+#### **batch_execute_trades**
+- Enables **batch order execution**, reducing latency for **HFT traders**.
+
+#### **auto_hedge**
+- Automatically hedges **large positions** to **protect liquidity providers**.
+
+#### **adjust_leverage_based_on_reputation**
+- Dynamically adjusts **leverage limits** based on a trader’s **reputation and trade volume**.
+
+---
+
