@@ -59,3 +59,15 @@ This section describes the key functions within the **Flash Perpetuals Token** p
 - Grants access to **orderbook updates** for **whitelisted market makers**.
 
 ---
+
+### **2️⃣ Staking & Position Management**
+#### **stake**
+- Allows users to **stake FPT tokens** to gain access to **leveraged trading**.
+- Records the **stake timestamp** to enforce **anti-flash-loan protections**.
+
+#### **open_position**
+- Opens a **leveraged perpetual position** using the trader’s **staked collateral**.
+- Deducts an **execution fee** and **checks margin requirements**.
+
+---
+
